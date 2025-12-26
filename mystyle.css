@@ -1,0 +1,43 @@
+body {
+	background-color:#B85878;
+	font-family: Didot, serif;
+}
+.bandeau {
+	position:relative;
+	top:20px;
+	width:300px;
+	height:70px;
+	left:250px;
+}
+.menu {
+    width: 200px;               
+    background-color:#BF5F99;     
+    display: flex;
+    flex-direction: column;    
+    height: 100vh;          
+    padding-top: 20px;
+    position: fixed;          
+    left: 0;
+    top: 0;
+    border:1px solid #444;
+}
+.contenu {
+	position:relative;
+	top: 50px;
+	left:250px;
+}
+section {
+    border: 2px solid #444;
+    padding: 20px;
+    margin: 30px 0;
+    position: relative;
+    background-color: #ECBFF2;
+}
+li {
+    margin-bottom: 20px;
+}
+@media screen (max-width: 1024px){
+article {
+width:100%;
+}
+}
