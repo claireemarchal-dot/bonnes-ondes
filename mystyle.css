@@ -40,4 +40,13 @@ li {
 article {
 width:100%;
 }
+.csl-bib-body {
+    font-size: 1em;              /* même taille que le reste */
+    line-height: 1.6;
+    margin-left: 0;
+}
+
+.csl-entry {
+    margin-bottom: 1em;
+    text-align: justify;         /* alignement en bloc */
 }
